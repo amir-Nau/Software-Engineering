@@ -1,2 +1,4 @@
 # Software-Engennering
-In this project we are going to create a website dedicated to Super Mario
+Team members:
+Amir Boltaev;
+
