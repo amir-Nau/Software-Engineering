@@ -2,5 +2,5 @@
 Team members:
 Amir Boltaev;
 Oscar Hernandez;
-Blessing Onaimor
-Ali Shaikh
+Blessing Onaimor;
+Ali Shaikh;
