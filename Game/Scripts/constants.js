@@ -52,13 +52,13 @@ var images = {
 };
 var constants = {
 	interval        : 20,
-	bounce          : 15,
+	bounce          : 16,
 	cooldown        : 20,
-	gravity         : 2,
+	gravity         : 2.2,
 	start_lives     : 3,
 	max_width       : 400,
 	max_height      : 15,
-	jumping_v       : 27,
+	jumping_v       : 25,
 	walking_v       : 5,
 	mushroom_v      : 3,
 	ballmonster_v   : 2,
