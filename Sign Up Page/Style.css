@@ -1,7 +1,7 @@
 H1{
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 450px;
+  text-align: center;
   color: white
 }
 body {
@@ -11,6 +11,9 @@ form{
   color: white;
   font-size: 30px;
 }
+table{
+  margin-left: 20%;
+}
 .submit_button{
   margin-left: 20px;
   width: 250px;
@@ -18,50 +21,26 @@ form{
   font-size: 30px;
 }
 
-.img1{
-  padding-left: 100px;
-}
-.img2{
-  padding-left: 250px;
-}
 .img3{
-  padding-left: 300px;
+  padding-left: 50%;
   padding-bottom: 50px;
-}
-.sign_in{
-  background-image: url(Background_pattern_sign_in.png);
 }
 .sign_up{
   background-image: url(Background_pattern_sign_up.png);
 }
 .sign_up_text{
-  padding-left: 570px;
+  text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
   font-size: 30px;
 }
-.sign_in_form{
-  margin-left: 230px;
-}
-.sign_up_form{
-  margin-left: 300px;
-}
-
-.bar_red{
-  float: left;
-  padding-left: 30px;
-  height: 10px;
-  width: 1470px;
-  background-color: red;
-  border-radius: 20px;
-}
 
 .bar_blue{
   float: left;
-  padding-left: 30px;
+  padding-left: 40px;
   height: 10px;
-  width: 1470px;
+  width: 97%;
   background-color: blue;
   border-radius: 20px;
 }
