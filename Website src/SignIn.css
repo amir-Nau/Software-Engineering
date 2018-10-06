@@ -1,0 +1,219 @@
+
+		html, body {
+  
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+
+
+
+
+}
+
+.background-wrap{
+ z-index: -1000;
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+ position: fixed;
+ top: 0;
+ left: 0;
+
+}
+
+
+    
+
+video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+ul {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5rem;
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: yellow;
+}
+
+ul li a:before {
+
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	border-bottom: 1px solid yellow;
+	transition: all 500ms ease-in-out;
+	opacity: 0;
+}
+
+ul li a:hover:before {
+	opacity: 1;
+	width: 100%;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.Title {
+  text-align:center;
+
+  color:black;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:2.5rem;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+
+ 
+}
+.content{
+ position: absolute;
+ width: 100%;
+ min-height: 100%;
+ z-index: 1000;
+ background-color: rgba(0,0,0,0.7);
+
+   
+
+}
+
+.form{
+  margin-left: 38%;
+  margin-top: 20%;
+}
+
+
+#first{
+  position: absolute;
+  margin-top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 180px;
+  height: 50px;
+  background-color: #262626;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  color: #ff0;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: verdana;
+  letter-spacing: 4px;
+  padding-right: 5px;
+
+
+}
+
+
+
+
+
+.a:before
+{
+  content:'';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ffcontent:'';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff0;
+  transition:1s;
+  mix-blend-mode: hue;0;
+  transition:1s;
+  mix-blend-mode: hue;
+
+}
+.a:after {
+    content:'';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff0;
+  transition:1s;
+  mix-blend-mode: hue;
+
+}
+.span:before{
+  content:'';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff0;
+  transition:1s;
+  mix-blend-mode: hue;
+
+}
+.span:after{
+    content:'';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ff0;
+  transition:1s;
+  mix-blend-mode: hue;
+
+}
+
+.a:before
+{
+  top: -2px;
+  left: -2px;
+}
+.a:after
+{
+  top: -2px;
+  right: -2px;
+}
+.span:before
+{
+  bottom: -2px;
+  left: -2px;
+}
+.span:after
+{
+  bottom:  -2px;
+  right:  -2px;
+}
+
+.a:hover:before,
+.a:hover:after,
+.a:hover .span:before,
+.a:hover .span:after
+{
+ width: 50%;
+}
+
+
+
+
