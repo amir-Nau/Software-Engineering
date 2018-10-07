@@ -1,0 +1,105 @@
+H1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white
+}
+body {
+background-color: black;
+width: 100%;
+height: 100%;
+
+overflow: hidden;
+
+}
+form{
+  color: white;
+  font-size: 30px;
+  margin-left: 10rem;
+}
+table{
+  margin-left: 10%;
+
+}
+
+input[type="text"], textarea {
+
+  background-color : black;
+  color: white;
+  position: center;
+}
+
+input[type="password"], textarea {
+
+  background-color : black;
+  color: white;
+
+}
+
+.submit_button{
+  margin-left: 67%;
+  width: 250px;
+  height: 40px;
+  font-size: 30px;
+}
+
+.img3{
+  margin-left: 30%;
+  padding-bottom: 50px;
+}
+.sign_up{
+  background-image: url(Background_pattern_sign_up.png);
+  width: 100%;
+  min-width: 100%;
+  position: center;
+}
+.sign_up_text{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: white;
+  font-size: 30px;
+}
+
+.bar_blue{
+  float: left;
+  padding-left: 40px;
+  height: 10px;
+  width: 97%;
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.inputData input{
+  border-color: blue;
+  border-style: solid;
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 8px;
+  margin-left: 60%;
+
+}
+
+.inputData label{
+  position: absolute;
+  margin-left: 10%;
+
+}
+
+
+.example_b {
+color: #fff !important;
+text-transform: uppercase;
+background: blue;
+padding: 20px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+}
+
+.example_b:hover {
+text-shadow: 4px 4px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 4px 3px 50px -5px rgba(255,0,0);
+-moz-box-shadow: 0px 5px 40px -10px rgba(136,0,0);
+transition: all 0.4s ease 0s;
+}
