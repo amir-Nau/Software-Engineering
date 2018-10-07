@@ -24,7 +24,6 @@ input[type="text"], textarea {
   margin-top: 5px;
   background-color : black;
   color: white;
-
 }
 
 input[type="password"], textarea {
@@ -42,7 +41,7 @@ input[type="password"], textarea {
 }
 
 .img3{
-  margin-left: 80%;
+  margin-left: 22rem;
   padding-bottom: 50px;
 }
 .sign_up{
