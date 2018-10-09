@@ -1,0 +1,17 @@
+COMP 3322 O Software Engineering Project Meeting Notes #4
+Date: Thursday, October 4, 2018
+Meeting Starts: 2:20 PM
+
+Attendees:
+Amir Boltaev
+Oscar Hernandez
+Ali Shaikh
+Blessing Onaimur
+Selmir Avdic (ABSENT)
+
+Overview: So at this point, we're doing updates on our portions. I'm right now updating the About the Game webpage, finishing the portion of creator of the game and starting 
+the about how the game works. Checking updates for the week.Blessing needs to work on tables, basically the CSS and the layout of About the team page. While I have to work
+on how the website design is going to look like for the about the game page. So I already put the background image for my game description portion, now I have to push it into
+GitHub along with CSS works that needs to be there. Selmir got the game fixed up and now the rest of the work needs to be done by November.
+
+Meeting Ends: 2:50 PM
