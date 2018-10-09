@@ -1,0 +1,17 @@
+COMP 3322 O Software Engineering Project
+Date: Tuesday, October 9, 2018
+Meeting Starts: 2:00 PM
+
+Attendees:
+Amir Boltaev
+Oscar Hernandez
+Ali Shaikh
+Blessing Onaimur
+Selmir Avdic (ABSENT)
+
+Overview: So by now, Ali got the background uploaded along with one content pictures. Oscar created a local host on his computer to link his HTML Sign up page with PHP to
+a database. Blessing is currently working on the development of the team page. Amir is working on the nav bar. He has already completed the homepage and he is just working on
+few details. Selmir is continuing to work on updating the game. Meanwhile, Ali is going to watch the Parallax video to make the website layout perfectly. The team's goal is to
+get everything done before November.
+
+Meeting Adjourned: 2:40 PM
