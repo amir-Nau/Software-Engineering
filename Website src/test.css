@@ -23,7 +23,14 @@
 }
 
 
-    
+    .text{
+      position: absolute;
+  background: rgba(0,0,0,0.7);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    }
 
 video
 {
@@ -35,7 +42,7 @@ video
 
 
 }
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 
 
 
@@ -54,14 +61,15 @@ ul li {
 }
 
 ul li a {
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.5rem;
+font-family: 'Bungee Inline', cursive;
+	font-size: 2rem;
 	position: relative;
 	display: block;
 	padding: 10px 20px;
 	margin: 0 10px;
 	text-decoration: none;
-	color: yellow;
+	color: #b7950b;
+  
 }
 
 ul li a:before {
@@ -78,10 +86,14 @@ ul li a:before {
 }
 
 ul li a:hover:before {
-	opacity: 1;
+	opacity: 0;
 	width: 100%;
+  
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+a:hover{
+  text-shadow: 0 0 25px #FF0000, 0 0 29px #0000FF;
+}
+  
 
 .Title {
   text-align:center;
@@ -100,7 +112,7 @@ ul li a:hover:before {
  width: 100%;
  min-height: 100%;
  z-index: 1000;
- background-color: rgba(0,0,0,0.6);
+
 
    
 
@@ -140,13 +152,13 @@ ul li a:hover:before {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #ffcontent:'';
+ 
   position: absolute;
   width: 10px;
   height: 10px;
   background: #ff0;
   transition:1s;
-  mix-blend-mode: hue;0;
+
   transition:1s;
   mix-blend-mode: hue;
 
@@ -210,7 +222,4 @@ ul li a:hover:before {
 {
  width: 50%;
 }
-
-
-
 

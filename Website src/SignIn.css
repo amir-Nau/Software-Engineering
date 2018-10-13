@@ -4,11 +4,10 @@
 overflow: hidden;
   width: 100%;
   height: 100%;
+}
 
-
-
-
-
+body{
+	display: table;
 }
 
 .background-wrap{
@@ -35,21 +34,21 @@ video
   min-width: 100%;
   width: auto;
   height: auto;
-  z-index:  
+
 
 
 }
 
 .text{
   position: absolute;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.7);
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
 
 }
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 
 
 
@@ -68,14 +67,14 @@ ul li {
 }
 
 ul li a {
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.5rem;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 2rem;
 	position: relative;
 	display: block;
 	padding: 10px 20px;
 	margin: 0 10px;
 	text-decoration: none;
-	color: yellow;
+	color: #b7950b;
 }
 
 ul li a:before {
@@ -91,12 +90,9 @@ ul li a:before {
 	opacity: 0;
 }
 
-ul li a:hover:before {
-	opacity: 1;
-	width: 100%;
+a:hover{
+  text-shadow: 0 0 25px #FF0000, 0 0 29px #0000FF;
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
-
 .Title {
   text-align:center;
 
@@ -124,7 +120,60 @@ ul li a:hover:before {
 
 }
 
+.signin
+{
+	border-collapse: collapse;
+	border-radius: 5px;
+	padding: 3em;
+	position: absolute;
+	top: 45%;
+	left: 36%;
+	transform: translateX(-50%) translateY(-50%);
+	margin-left: 10em;
+}
 
+h2{
+	margin-top: 0px;
+	font-family: Source Sans Pro;
+	font-weight: lighter;
+	color: /*red;*/		#fff;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+input{
+	display: block;
+	width: 320px;
+	height: 50px;
+	background: rgba(0,0,0,0.2);
+	outline: none;
+	border: 1px solid rgba(0,0,0,0.5);
+	font-family:Source Sans Pro;
+	font-weight: lighter;
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	border-radius: 5px 
+
+}
+button
+{
+	width: 332px;
+	height: 50px;
+	font-size: 25px;
+	background: #262626;
+	font-weight: lighter;
+	color: #ff0;
+	border: 0px;
+	margin-left: 25px;
+}
+
+.inputcolor
+{
+	 background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
 
 
 
