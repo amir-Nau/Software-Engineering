@@ -1,0 +1,16 @@
+SOFTWARE ENGINEERING MEETING NOTES
+
+ATTENDEES: 
+Amir Boltaev
+Blessing Onaimor
+Ali Shaikh
+Oscar Hernandez
+
+Session Started: 2:10 PM
+
+Overview: Ali has to reclone the About the Game page and upload it into Boys Dorm folder so Amir can retrieve it.Blessing needs every team member's pictures and description
+about themselves, here's his email: bonaimor@na.edu. Oscar needs to remove password field from his page. On Tuesday, the team meets at ACM room to finish up the work.
+Amir will update the nav bar to all of pages once there are complete.So Amir and Oscar are discussing about if one person wants to play game, it will take him/her to Play Now
+game. Right after that, JavaScript will be added and linked.
+
+Session Ended: 2:25 PM
