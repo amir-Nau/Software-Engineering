@@ -20,18 +20,37 @@
 		<table>
 			<tr>
 				<td>
-		<form class="" action="connect.php" method="post">
+		<form name="myForm" action="connect.php" onsubmit="return validateForm()" method="post">
 			<div class="inputData">
 			<label>Firstname:</label> <input type="text" name="Firstname" placeholder="Firstname"><br><br>
 			<label>Lastname:</label> <input type="text" name="Lastname" placeholder="Lastname"><br><br>
 			<label>Username:</label> <input type="text" name="Username" placeholder="Username"><br><br>
-			<!--<input type="submit" name="" value="Sign up" class="submit_button example_b" align="center">-->
 		</div>
-
 
 		<div class="">
-			<input type="submit" value="Sign Up" class="submit_button example_b"</a>
+			<input type="submit" value="Sign Up" class="submit_button example_b">
 		</div>
+
+		<script type="text/javascript">
+		function validateForm() {
+			var FirstName = document.forms["myForm"]["Firstname"].value;
+			var LastName = document.forms["myForm"]["Lastname"].value;
+			var User = document.forms["myForm"]["Username"].value;
+			if (FirstName == "") {
+					alert("First name must be filled out");
+					return false;
+			}
+			if (LastName == "") {
+					alert("Last name must be filled out");
+					return false;
+			}
+			if (User == "") {
+					alert("Username must be filled out");
+					return false;
+			}
+		}
+
+		</script>
 
 		<br>
 		<br>
