@@ -1,0 +1,17 @@
+COMP 3322 O Software Engineering Project Team Meeting Minutes
+
+Date: October 23, 2018
+
+Start Time: 12:10
+End Time: 12:40
+
+Attendees:
+Amir Boltaev
+Selmir Avdic
+Ali Shaikh
+Oscar Hernandez
+Blessing Onaimor (TESTING)
+
+Overview: So far, we pretty much done with our portions. Ali is done with About the Game webpage. Blessing is going to update the team page with some changes. 
+Amir just made the nav bar for the game. One more thing we as a team need to do is the server and database. We discussed on the idea of GAANT chart and report
+we need to make before the end of semester to give an analysis on our project. Now, Amir is going to add nav bars to all of the webpages made by the team members.
