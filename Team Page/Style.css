@@ -39,6 +39,7 @@
   width: 100%;
   filter: grayscale(100);
   transition: 0.4s all;
+  overflow: hidden;
 }
 .ps a:hover > img{
   filter: none;
