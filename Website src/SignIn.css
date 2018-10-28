@@ -68,7 +68,7 @@ ul li {
 
 ul li a {
 	font-family: 'Bungee Inline', cursive;
-	font-size: 1.7rem;
+	font-size: 2rem;
 	position: relative;
 	display: block;
 	padding: 10px 20px;
@@ -127,23 +127,26 @@ a:hover{
 	padding: 3em;
 	position: absolute;
 	top: 45%;
-	left: 36%;
+	left: 44%;
 	transform: translateX(-50%) translateY(-50%);
-	margin-left: 10em;
+	
 }
 
-h2{
+h3{
 	margin-top: 0px;
 	font-family: Source Sans Pro;
 	font-weight: lighter;
 	color: /*red;*/		#fff;
 	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-	font-size: 50px;
-	margin-left: 5rem;
-
+	font-size: 40px;
+	margin-right: 150px;
+	text-align: center;
+	
 }
 
 input{
+	text-align: center;
+	margin-left: 4rem;
 	display: block;
 	width: 320px;
 	height: 50px;
@@ -153,13 +156,15 @@ input{
 	font-family:Source Sans Pro;
 	font-weight: lighter;
 	font-size: 14px;
-	margin-bottom: 10px;
-	margin-right: 25rem;
+	border-radius: 10%;
+
+	
 	border-radius: 5px 
 
 }
 button
 {
+	margin-top: 1%;
 	width: 332px;
 	height: 50px;
 	font-size: 25px;
@@ -168,12 +173,15 @@ button
 	color: #ff0;
 	border: 0px;
 	margin-bottom: 15rem;
+	margin-left: 3.9rem;
+	border-radius: 10%;
 	
 }
 
 .inputcolor
 {
-	 background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+	color: #5F9EA0;
+	 background-color: rgba(160, 135, 34, 0.30);
 }
 
 
