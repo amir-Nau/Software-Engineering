@@ -1,0 +1,17 @@
+COMP 3322 Software Engineering Team Mario Rangers Meeting Minutes
+
+Session Starts: 2:15PM
+Session Ends: 3:00 PM
+
+Attendees:
+Amir Boltaev
+Oscar Hernandez
+Selmir Avdic (ABSENT)
+Ali Shaikh
+Blessing Onaimor
+
+Overview: So far, Amir is showing us the team members webpage and the nav bars on each webpages to see how it's going to be linked. He also showed us wordpress and bootstrap sites 
+as an advice to us for the nav bars or if we want to do web developments or senior design project. The nav bars template looks horrible right now, so the updates will be
+needed. For the home page, there are nav bars where it takes us to pages like About the Game page, Team page, and Home page. So Ali needs to do some touch up the About the 
+Game webpage and Oscar, Ali, and Blessing should check the organization of their codes, if it's not organized then organize it with some comments.. Next week, all of our webpages will be connected to one server. Oscar is going to
+change fonts on his Sign in page. Amir showed us how to hover on team members page, the hovering will allow us to see the picture of team member and their descriptive paragraph.
