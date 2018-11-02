@@ -7,9 +7,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
 </head>
 
-	<body>
+<body>
 
-		<!-- Navbat From Home Page -->
+<!-- Navbar From Home Page -->
 <div>
 	<nav>
    		<ul>
@@ -21,30 +21,42 @@
 	</nav>
 </div>
 
+<!-- Title of the page-->
 
-	<div class="Welcome">
-		Welcome to the Mario Rangers sign up page
+<div class="Welcome">
+	Welcome to the Mario Rangers sign up page
+</div>
+
+<!-- Sign up section of the page -->
+
+<div class="sign_up">
+	<div class="bar_gold">
 	</div>
+	<br>
+	<br>
+	<br>
 
-	<div class="sign_up">
-		<div class="bar_blue">
-		</div>
-		<br>
-		<br>
-		<br>
-		<table>
-			<tr>
-				<td>
-		<form name="myForm" action="connect.php" onsubmit="return validateForm()" method="post">
-			<div class="inputData">
-			<label>Firstname:</label> <input type="text" name="Firstname" placeholder="Firstname"><br><br>
-			<label>Lastname:</label> <input type="text" name="Lastname" placeholder="Lastname"><br><br>
-			<label>Username:</label> <input type="text" name="Username" placeholder="Username"><br><br>
-		</div>
+<!-- Table created to with one row and two elements.
+			The form to sign up is the first element &
+		 	the yellow toad image is the second element -->
 
-		<div class="">
-			<input type="submit" value="Sign Up" class="submit_button example_b">
-		</div>
+	<table>
+		<tr>
+			<td> <!-- First element. Sign up Form. -->
+				<form name="myForm" action="connect.php" onsubmit="return validateForm()" method="post">
+					<div class="inputData">
+						<label>Firstname:</label> <input type="text" name="Firstname" placeholder="Firstname"><br><br>
+						<label>Lastname:</label> <input type="text" name="Lastname" placeholder="Lastname"><br><br>
+						<label>Username:</label> <input type="text" name="Username" placeholder="Username"><br><br>
+					</div>
+
+		<!-- Submit button-->
+
+					<div>
+						<input type="submit" value="Sign Up" class="submit_button submit_design">
+					</div>
+
+		<!-- Javascript code to make sure all fields are filled -->
 
 		<script type="text/javascript">
 		function validateForm() {
@@ -64,20 +76,24 @@
 					return false;
 			}
 		}
-
 		</script>
+			</td>
 
+			<!-- Yellow toad image in the second element -->
 
-				</td>
 				<td>
 		<img src="Yellow_Toad.png" height="400" class="img3">
 				</td>
+
+
 			</tr>
 		</table>
-		<div class="bar_blue">
+
+		<div class="bar_gold">
 		</div>
+
 		</form>
 	</div>
 
-	</body>
+</body>
 </html>
