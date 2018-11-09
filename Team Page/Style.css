@@ -4,11 +4,15 @@
   padding: 0;
   font-family: sans-serif;
 }
+/*Assigning the background color of the webpage*/ 
+body{
+  background-color: #1d1e22;
+}
 /*Aligning the texts to the center of the page*/
 .team-section{
   overflow: hidden;
   text-align: center;
-  background: #34495e;
+  background: #1d1e22;
   padding: 60px;
 }
 /*Making the text for the individual biographies white uppercase*/
