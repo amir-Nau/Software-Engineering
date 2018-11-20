@@ -12,6 +12,6 @@ Selmir Avdic (ABSENT)
 Ali Shaikh
 Blessing Onaimor
 
-Overview: So far, Oscar's sign up pageis cpmplete and needs to be linked onto Amir's home page. Blessing's Team Page and Ali's About the Game Page are also complete at this moment.
+Overview: So far, Oscar's sign up page is complete and needs to be linked onto Amir's home page. Blessing's Team Page and Ali's About the Game Page are also complete at this moment.
 The database needs to be created and linked along with checking the functionality of it. 
 The testing phase is going to finish by the end of Novemeber and the team is going to start on the report. 
