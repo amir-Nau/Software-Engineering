@@ -177,6 +177,18 @@ button
 	border-radius: 10%;
 	
 }
+.hyperLink{
+	margin-top: 30px;
+	
+	font-size: 20px;
+	background: #262626;
+	font-weight: lighter;
+	color: #ff0;
+	margin-bottom: 15rem;
+	margin-left: 30px;
+	z-index: 1000;
+
+}
 
 .inputcolor
 {

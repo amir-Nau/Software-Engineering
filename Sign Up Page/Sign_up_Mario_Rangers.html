@@ -1,3 +1,4 @@
+
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="Style1.css">
@@ -8,6 +9,7 @@
 </head>
 
 <body>
+	
 
 <!-- Navbar From Home Page -->
 <div>
@@ -43,26 +45,26 @@
 	<table>
 		<tr>
 			<td> <!-- First element. Sign up Form. -->
-				<form name="myForm" action="connect.php" onsubmit="return validateForm()" method="post">
+				<form name="myForm" action="connect.php" method="POST" ">
 					<div class="inputData">
-						<label>Firstname:</label> <input type="text" name="Firstname" placeholder="Firstname"><br><br>
-						<label>Lastname:</label> <input type="text" name="Lastname" placeholder="Lastname"><br><br>
-						<label>Username:</label> <input type="text" name="Username" placeholder="Username"><br><br>
+						<label>Firstname:</label> <input type="text" name="firstName" placeholder="Firstname"><br><br>
+						<label>Lastname:</label> <input type="text" name="lastName" placeholder="Lastname"><br><br>
+						<label>Username:</label> <input type="text" name="username" placeholder="Username"><br><br>
 					</div>
 
 		<!-- Submit button-->
 
 					<div>
-						<input type="submit" value="Sign Up" class="submit_button submit_design">
+						<input type="submit" value="Submit" class="submit_button submit_design">
 					</div>
 
 		<!-- Javascript code to make sure all fields are filled -->
 
 		<script type="text/javascript">
 		function validateForm() {
-			var FirstName = document.forms["myForm"]["Firstname"].value;
-			var LastName = document.forms["myForm"]["Lastname"].value;
-			var User = document.forms["myForm"]["Username"].value;
+			var FirstName = document.forms["myForm"]["firstName"].value;
+			var LastName = document.forms["myForm"]["lastName"].value;
+			var User = document.forms["myForm"]["username"].value;
 			if (FirstName == "") {
 					alert("First name must be filled out");
 					return false;
