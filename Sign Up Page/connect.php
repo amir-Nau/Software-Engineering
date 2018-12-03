@@ -23,7 +23,10 @@ else{
   $sql = "INSERT INTO users (username, firstName, lastName)
   values ('$username','$firstName','$lastName')";
   if ($conn->query($sql)){
-    echo "New record is inserted sucessfully";
+        echo '<script>window.location="../test.html";
+
+        </script>';
+       
   }
   else{
     echo "Error: ". $sql ."
@@ -42,18 +45,6 @@ else{
   die();
  }
   
-  if (isset($_REQUEST["submit"])) {
-  		$username = $_REQUEST["username"]
-
-  		$rowcount = mysql_query("select * from users where username = '$username'")
-  }
-
-  if ($rowcount == true) {
- 		echo "Yaya"
-  }
-  else{
-  	echo "Nay"
-  }
 ?>
 
 
